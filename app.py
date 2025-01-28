@@ -9,7 +9,7 @@ CORS(pApi)  # Initialize CORS
 @pApi.route('/')
 def code_name():
     try:
-        # Prepare the additional information
+        # Preparing the additional information
         email = "akinrogundecodenamemomi@gmail.com" 
         current_datetime = datetime.datetime.now(datetime.timezone.utc).isoformat()
         github_url = "https://github.com/codenamemomi/pApi"  
