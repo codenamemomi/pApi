@@ -11,7 +11,8 @@ def code_name():
     try:
         # Preparing the additional information
         email = "akinrogundecodenamemomi@gmail.com" 
-        current_datetime = datetime.datetime.now(datetime.timezone.utc).isoformat()
+        current_datetime = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
         github_url = "https://github.com/codenamemomi/pApi"  
         # Create the response
         return jsonify({
