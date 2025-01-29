@@ -6,7 +6,7 @@ import datetime
 pApi = Flask(__name__)
 CORS(pApi)  # Initialize CORS
 
-@pApi.route('/')
+@pApi.route('GET/')
 def code_name():
     try:
         # Preparing the additional information
