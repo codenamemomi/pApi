@@ -1,4 +1,4 @@
-# pAPI Application
+# pAPI Application for HNG 12
 
 ## Description
 This is a simple Flask API application that provides information including a registered email address, the current datetime in ISO 8601 format, and the GitHub URL of the project's codebase.
